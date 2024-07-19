@@ -64,7 +64,8 @@ body {
 .banner,
 .change-your-habits,
 .run-extra-mile,
-.bmi-calculator-content {
+.bmi-calculator-content,
+.meet-team-container {
     max-width: 1126px;
     margin: 0rem auto;
 }
@@ -308,7 +309,7 @@ margin-top: 100px;
 
 /* Trainings and Exercises style end here */
 
-/* bmi calculator style here */
+/* bmi calculator style start here */
 .bmi-calculator{
     margin-top: 100px;
 }
@@ -384,7 +385,36 @@ form .colum{
     padding: 1rem 4rem;
     margin-top: 34px;
 }
+/* bmi calculator style end here */
 
+/* meet team style start here */
+.meet-team{
+    margin-top: 90px;
+}
+.meet-team-container{
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-top: 78px;
+}
+.team1,
+.team2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.team2{
+    margin-top: 20px;
+}
+.meet-team-container  img{
+    width: 100%;
+    height: 272px;
+    border-radius: 18px;
+    /* margin-top: 20px; */
+    filter: brightness(80%);
+}
+
+/* meet team style end here */
 
 /*phone responsive design */
 @media screen and (max-width:576px) {
@@ -537,6 +567,22 @@ form .colum{
     .claculat-your-bmi .claculat-title{
         margin-top: 2.5rem;
         font-size: 1rem;
+    }
+
+    /* Meet team style */
+    .meet-team{
+        margin-top: 66px;
+    }
+    .meet-team .heading-text .title{
+        font-size: 2rem;
+    }
+    .meet-team-container{
+        margin: 0 1.25rem;
+        margin-top: 37px;
+    }
+    .team1,
+    .team2{
+    grid-template-columns: 1fr;
     }
 }
 
