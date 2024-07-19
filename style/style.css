@@ -8,6 +8,7 @@
     list-style: none;
 }
 
+/* Miama font download */
 @font-face {
     font-family: Miama;
     src: url(./Miama.ttf);
@@ -28,7 +29,6 @@ body {
 }
 
 .span {
-    /* font-family: "Dancing Script", cursive; */
     font-family: Miama;
     font-weight: normal;
     font-size: 4.8rem;
@@ -55,17 +55,14 @@ body {
     cursor: pointer;
 }
 
-/* main {
-    max-width: 1126px;
-    margin: 0rem auto;
-    border: 2px solid red;
-} */
+
 .navbar,
 .banner,
 .change-your-habits,
 .run-extra-mile,
 .bmi-calculator-content,
-.meet-team-container {
+.meet-team-container,
+.footer-content {
     max-width: 1126px;
     margin: 0rem auto;
 }
@@ -95,6 +92,7 @@ body {
 .header {
     background: linear-gradient(1800deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
+
 .navbar {
     justify-content: space-between;
     align-items: center;
@@ -221,150 +219,177 @@ body {
 .change-your-habits {
     margin-top: 100px;
 }
- .habits-container{
-    margin-top:3.6rem;
+
+.habits-container {
+    margin-top: 3.6rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2.5rem;
- }
- .exerise-card{
+}
+
+.exerise-card {
     text-align: center;
 }
- .exerise-card .exercise-image{
+
+.exerise-card .exercise-image {
     border-radius: 50%;
     margin-bottom: 30px;
- }
- .exerise-card .habits-title{
+}
+
+.exerise-card .habits-title {
     color: rgb(255, 255, 255);
     margin-bottom: 6px;
     font-size: 18px;
-    
- }
- .exerise-card .habits-description{
+
+}
+
+.exerise-card .habits-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
- }
+}
+
 /* changes your habits end here */
 
 /* run-extra-mile style start here */
-.run-extra-mile{
+.run-extra-mile {
     margin-top: 100px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
 }
-.run-extra-mile-container{
-   justify-content: space-between;
-   padding: 40px 45px;
+
+.run-extra-mile-container {
+    justify-content: space-between;
+    padding: 40px 45px;
 }
 
-.extra-mile-content{
+.extra-mile-content {
     max-width: 450px;
 }
-.extra-mile-content .extra-mile-title{
+
+.extra-mile-content .extra-mile-title {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 14px;
 }
-.extra-mile-content .extra-mile-desription{
+
+.extra-mile-content .extra-mile-desription {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 34px;
 }
-.extra-mile-image img{
+
+.extra-mile-image img {
     width: 366px;
     height: 312px;
     border-radius: 18px;
 }
-.extra-mile-content .btn-primary{
+
+.extra-mile-content .btn-primary {
     padding: 1rem 4rem;
 }
+
 /* run-extra-mile style end here */
 
 /* Trainings and Exercises style start here */
-.training{
-margin-top: 100px;
+.training {
+    margin-top: 100px;
 }
-.training .heading-text{
+
+.training .heading-text {
     text-align: left;
     margin: 0 0;
     margin-bottom: 58px;
-} 
-.training img{
+}
+
+.training img {
     width: 100%;
     height: 230px;
-    
+
 }
-.training .training-row{
+
+.training .training-row {
     display: grid;
     grid-template-columns: .8fr 1.5fr .7fr;
-    
+
 }
- .training-row2{
+
+.training-row2 {
     display: grid;
     grid-template-columns: 1.1fr .6fr .8fr;
     margin: 0 0;
- }
+}
 
 /* Trainings and Exercises style end here */
 
 /* bmi calculator style start here */
-.bmi-calculator{
+.bmi-calculator {
     margin-top: 100px;
 }
-.bmi-calculator .heading-text{
-text-align: left; 
+
+.bmi-calculator .heading-text {
+    text-align: left;
 }
-.bmi-calculator-container{
+
+.bmi-calculator-container {
     width: 100%;
     background: rgb(34, 34, 34);
 }
-.bmi-calculator-content{
+
+.bmi-calculator-content {
     margin-top: 88px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 40px 45px;
 }
 
-.claculator-chart-table .chart-title{
+.claculator-chart-table .chart-title {
     color: rgb(255, 255, 255);
     font-size: 1.75rem;
     font-weight: 900;
     margin-bottom: 50px;
 }
+
 /* table */
-table{
+table {
     width: 310px;
     border-collapse: collapse;
 }
-th,td{
+
+th,
+td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 10px;
     text-align: left;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.claculat-your-bmi .claculat-title{
+.claculat-your-bmi .claculat-title {
     color: rgb(255, 255, 255);
-    font-size:1.75rem;
+    font-size: 1.75rem;
     font-weight: 900;
     margin-bottom: 14px;
 }
-.claculat-your-bmi .claculat-description{
+
+.claculat-your-bmi .claculat-description {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     margin-bottom: 2.1rem;
     line-height: 1.5rem;
 }
+
 /* form */
-form{
+form {
     max-width: 577px;
 }
-form .input-box{
+
+form .input-box {
     width: 100%;
 }
-form .input-box input, select{
+
+form .input-box input,
+select {
     width: 100%;
     padding: 1rem;
     margin: .5rem 0;
@@ -374,39 +399,46 @@ form .input-box input, select{
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
 }
-form .input-box input::placeholder{
+
+form .input-box input::placeholder {
     color: rgba(255, 255, 255, 0.6);
 }
 
-form .colum{
+form .colum {
     gap: 10px;
 }
- form .btn-primary{
+
+form .btn-primary {
     padding: 1rem 4rem;
     margin-top: 34px;
 }
+
 /* bmi calculator style end here */
 
 /* meet team style start here */
-.meet-team{
+.meet-team {
     margin-top: 90px;
 }
-.meet-team-container{
+
+.meet-team-container {
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     margin-top: 78px;
 }
+
 .team1,
-.team2{
+.team2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.team2{
+
+.team2 {
     margin-top: 20px;
 }
-.meet-team-container  img{
+
+.meet-team-container img {
     width: 100%;
     height: 272px;
     border-radius: 18px;
@@ -416,6 +448,61 @@ form .colum{
 
 /* meet team style end here */
 
+/* footer style start here */
+.footer-section {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 88px;
+}
+
+.footer-container {
+    justify-content: space-between;
+    padding-top: 68px;
+}
+
+.footer-title {
+    max-width: 443px;
+}
+
+.footer-title .footer-title-text {
+    color: rgb(230, 83, 60);
+    font-size: 4.37rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-title .footer-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+.get-started .title-head {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2.25rem;
+}
+
+.get-started .title-manu {
+    padding: .9rem 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+}
+
+hr {
+    margin-top: 78px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyRight {
+    text-align: center;
+    padding: 2.25rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+/* footer style end here */
 /*phone responsive design */
 @media screen and (max-width:576px) {
     .navbar {
@@ -427,7 +514,7 @@ form .colum{
         display: none;
     }
 
-   .menu-bar {
+    .menu-bar {
         display: block;
     }
 
@@ -509,82 +596,113 @@ form .colum{
     .change-your-habits {
         margin-top: 20px;
     }
+
     .heading-text {
         max-width: 340px;
-       text-align: center;
+        text-align: center;
     }
-    
+
     .heading-text .title {
-       font-size: 2rem;
+        font-size: 2rem;
     }
-   
-    .habits-container{
+
+    .habits-container {
         grid-template-columns: 1fr;
         margin: 0 20px;
         margin-top: 58px;
     }
-    .exerise-card{
+
+    .exerise-card {
         max-width: 270px;
         margin: 0 auto;
     }
-    
+
     /* run-extra-mile-container */
-    .run-extra-mile{
+    .run-extra-mile {
         margin: 0 20px;
         margin-top: 80px;
     }
-    .run-extra-mile-container{
+
+    .run-extra-mile-container {
         flex-direction: column;
         padding: 40px 33px;
     }
-    .extra-mile-content .extra-mile-title{
-      font-size: 2rem;
+
+    .extra-mile-content .extra-mile-title {
+        font-size: 2rem;
     }
-    .extra-mile-content .btn-primary{
+
+    .extra-mile-content .btn-primary {
         width: 100%;
         margin-bottom: 30px;
     }
-    .extra-mile-image img{
+
+    .extra-mile-image img {
         width: 100%;
     }
 
     /* BMI claculation  */
-    .bmi-calculator{
+    .bmi-calculator {
         margin-top: 60px;
     }
-    .bmi-calculator .heading-text .title{
+
+    .bmi-calculator .heading-text .title {
         font-size: 2rem;
     }
-    .bmi-calculator-content{
-      grid-template-columns: 1fr;
-      margin-top: 32px;
-      padding: 40px 20px;
+
+    .bmi-calculator-content {
+        grid-template-columns: 1fr;
+        margin-top: 32px;
+        padding: 40px 20px;
     }
-    .claculator-chart-table .chart-title{
+
+    .claculator-chart-table .chart-title {
         margin-bottom: 1.5rem;
-         font-size: 1rem;  
+        font-size: 1rem;
     }
-    .claculat-your-bmi .claculat-title{
+
+    .claculat-your-bmi .claculat-title {
         margin-top: 2.5rem;
         font-size: 1rem;
     }
 
     /* Meet team style */
-    .meet-team{
+    .meet-team {
         margin-top: 66px;
     }
-    .meet-team .heading-text .title{
+
+    .meet-team .heading-text .title {
         font-size: 2rem;
     }
-    .meet-team-container{
+
+    .meet-team-container {
         margin: 0 1.25rem;
         margin-top: 37px;
     }
+
     .team1,
-    .team2{
-    grid-template-columns: 1fr;
+    .team2 {
+        grid-template-columns: 1fr;
     }
 }
+
+/* footer */
+.footer-container {
+    flex-direction: column;
+    margin: 0 20px;
+
+}
+
+.get-started {
+    padding-top: 20px;
+}
+
+hr {
+    margin: 0 20px;
+    margin-top: 72px;
+}
+
+/* footer style here */
 
 
 /* medium tablet size device */
@@ -602,36 +720,41 @@ form .colum{
     .banner-content {
         margin-bottom: 100px;
     }
+
     .heading-text {
         max-width: 480px;
-       text-align: center;
+        text-align: center;
     }
-    .habits-container{
+
+    .habits-container {
         grid-template-columns: repeat(2, 1fr);
         width: 566px;
         margin: 0 auto;
-        margin-top: 58px; 
+        margin-top: 58px;
     }
-    .exerise-card{
+
+    .exerise-card {
         max-width: 270px;
         margin: 0 auto;
     }
 
     /* run extra mile container */
-    .run-extra-mile{
+    .run-extra-mile {
         margin: 0 20px;
         margin-top: 80px;
     }
-  
-    .extra-mile-image img{
+
+    .extra-mile-image img {
         width: 256px;
     }
-    .extra-mile-content{
+
+    .extra-mile-content {
         width: 263px;
     }
-    .extra-mile-content .extra-mile-title{
-     font-size: 2.25rem;
+
+    .extra-mile-content .extra-mile-title {
+        font-size: 2.25rem;
     }
-    
-   
+
+
 }
