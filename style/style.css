@@ -244,6 +244,42 @@ main {
  }
 /* changes your habits end here */
 
+/* run-extra-mile style start here */
+.run-extra-mile{
+    margin-top: 100px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+.run-extra-mile-container{
+   justify-content: space-between;
+   padding: 40px 45px;
+}
+
+.extra-mile-content{
+    max-width: 450px;
+}
+.extra-mile-content .extra-mile-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.extra-mile-content .extra-mile-desription{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+.extra-mile-image img{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
+.extra-mile-content .btn-primary{
+    padding: 1rem 4rem;
+}
+/* run-extra-mile style end here */
+
 /*phone responsive design */
 @media screen and (max-width:576px) {
     .navbar {
@@ -255,7 +291,7 @@ main {
         display: none;
     }
 
-    .menu-bar {
+   .menu-bar {
         display: block;
     }
 
@@ -263,7 +299,6 @@ main {
     .banner {
         flex-direction: column;
         padding: 0 1.25rem;
-        /* margin: 0 10px; */
     }
 
     .banner-content .banner-title {
@@ -341,7 +376,6 @@ main {
     .heading-text {
         max-width: 340px;
        text-align: center;
-        
     }
     
     .heading-text .title {
@@ -357,11 +391,26 @@ main {
         max-width: 270px;
         margin: 0 auto;
     }
-    /* .heading-text .sub-title {
-        
-        font-size: 0.87rem;
-        
-    } */
+    
+    /* run-extra-mile-container */
+    .run-extra-mile{
+        margin: 0 20px;
+        margin-top: 80px;
+    }
+    .run-extra-mile-container{
+        flex-direction: column;
+        padding: 40px 33px;
+    }
+    .extra-mile-content .extra-mile-title{
+      font-size: 2rem;
+    }
+    .extra-mile-content .btn-primary{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .extra-mile-image img{
+        width: 100%;
+    }
 }
 
 
@@ -380,5 +429,36 @@ main {
     .banner-content {
         margin-bottom: 100px;
     }
+    .heading-text {
+        max-width: 480px;
+       text-align: center;
+    }
+    .habits-container{
+        grid-template-columns: repeat(2, 1fr);
+        width: 566px;
+        margin: 0 auto;
+        margin-top: 58px; 
+    }
+    .exerise-card{
+        max-width: 270px;
+        margin: 0 auto;
+    }
 
+    /* run extra mile container */
+    .run-extra-mile{
+        margin: 0 20px;
+        margin-top: 80px;
+    }
+  
+    .extra-mile-image img{
+        width: 256px;
+    }
+    .extra-mile-content{
+        width: 263px;
+    }
+    .extra-mile-content .extra-mile-title{
+     font-size: 2.25rem;
+    }
+    
+   
 }
