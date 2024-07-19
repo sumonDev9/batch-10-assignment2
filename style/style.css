@@ -1,34 +1,40 @@
 /* Inter font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
- }
- @font-face {
+}
+
+@font-face {
     font-family: Miama;
     src: url(./Miama.ttf);
- }
-body{
+}
+
+body {
     font-family: "Inter", sans-serif;
     background-color: black;
 }
+
 /* share style  */
-.display-flex{
+.display-flex {
     display: flex;
 }
-.hide{
+
+.hide {
     display: none;
 }
-.span{
+
+.span {
     /* font-family: "Dancing Script", cursive; */
     font-family: Miama;
     font-weight: normal;
-    font-size:4.8rem;
+    font-size: 4.8rem;
 }
-.btn-primary{
+
+.btn-primary {
     padding: 1rem 2.25rem;
     border-radius: 42px;
     background: rgb(230, 83, 60);
@@ -38,7 +44,8 @@ body{
     font-size: 1.2rem;
     cursor: pointer;
 }
-.btn-secondary{
+
+.btn-secondary {
     padding: 1rem 2.25rem;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 42px;
@@ -47,77 +54,119 @@ body{
     font-size: 1.2rem;
     cursor: pointer;
 }
+
+main {
+    max-width: 1126px;
+    margin: 0rem auto;
+    /* border: 2px solid red; */
+}
+
+/* section heading */
+.heading-text {
+    width: 671px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-text .title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-bottom: 0.87rem;
+}
+
+.heading-text .sub-title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.87rem;
+    line-height: 1.5rem
+}
+
 /* header start here */
 
 /* logo start here */
-.header{
-    background: linear-gradient(1800deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-} 
-.navbar, .banner {
+.header {
+    background: linear-gradient(1800deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.navbar,
+.banner {
     max-width: 1126px;
     margin: 0rem auto;
 }
-.navbar{
+
+.navbar {
     justify-content: space-between;
     align-items: center;
     margin-top: 3.5rem;
- }
-.brand{
+}
+
+.brand {
     color: rgb(230, 83, 60);
     font-size: 2rem;
     font-weight: 700;
 }
-.nav-links .nav-item{
+
+.nav-links .nav-item {
     margin-right: 30px;
- }
- .nav-links .nav-link{
+}
+
+.nav-links .nav-link {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.nav-links .active{
+
+.nav-links .active {
     border-radius: 46px;
     padding: 8px 19px;
     background: rgb(230, 83, 60);
 }
+
 .menu-bar {
     display: none;
     color: rgb(255, 255, 255);
 }
 
 /* banner */
-.banner{
-   justify-content: space-between;
+.banner {
+    justify-content: space-between;
     align-items: center;
     margin-top: 1.5rem;
 }
-.banner-content{
- max-width: 520px;
+
+.banner-content {
+    max-width: 520px;
 }
-.banner-content .banner-title{
+
+.banner-content .banner-title {
     color: rgb(255, 255, 255);
     font-size: 78px;
     margin-bottom: 20px;
 }
-.banner-content .banner-description{
+
+.banner-content .banner-description {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 24px;
 }
-.banner-content .banner-image{
+
+.banner-content .banner-image {
     width: 100%;
 }
- .images-content{
+
+.images-content {
     position: relative;
- }
- .circel{
+}
+
+.circel {
     width: 40px;
     height: 40px;
     background: rgb(230, 83, 60);
     border-radius: 50%;
 }
-.circel i{
+
+.circel i {
     display: none;
 }
- .Video-tutorial{
+
+.Video-tutorial {
     position: absolute;
     bottom: 63px;
     right: 256px;
@@ -126,21 +175,23 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    background: rgba(48, 48, 48, 0.54); 
+    background: rgba(48, 48, 48, 0.54);
     justify-content: center;
     align-items: center;
     gap: 8px;
 
 }
 
-.Video-tutorial .video-info .video-count{
+.Video-tutorial .video-info .video-count {
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
-.Video-tutorial .video-info .video-notes{
+
+.Video-tutorial .video-info .video-notes {
     color: rgba(239, 237, 232, 0.65);
 }
-.workout-video{
+
+.workout-video {
     position: absolute;
     top: 135px;
     right: -10px;
@@ -148,18 +199,50 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    background: rgba(48, 48, 48, 0.54); 
+    background: rgba(48, 48, 48, 0.54);
 }
-.workout-video .video-total{
+
+.workout-video .video-total {
     color: rgb(255, 255, 255);
     font-size: 2.5rem;
     font-weight: 900;
 }
-.workout-video .video-description{
+
+.workout-video .video-description {
     color: rgba(255, 255, 255, 0.65);
     font-size: 13px;
 }
 
+/* header end here */
+
+/* changes your habits start here */
+.change-your-habits {
+    margin-top: 100px;
+}
+ .habits-container{
+    margin-top:3.6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+ }
+ .exerise-card{
+    text-align: center;
+}
+ .exerise-card .exercise-image{
+    border-radius: 50%;
+    margin-bottom: 30px;
+ }
+ .exerise-card .habits-title{
+    color: rgb(255, 255, 255);
+    margin-bottom: 6px;
+    font-size: 18px;
+    
+ }
+ .exerise-card .habits-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+ }
+/* changes your habits end here */
 
 /*phone responsive design */
 @media screen and (max-width:576px) {
@@ -206,43 +289,79 @@ body{
         margin-top: 48px;
     }
 
-    .Video-tutorial{
+    .Video-tutorial {
         bottom: 250px;
         left: 10px;
         width: 170px;
         height: 75px;
     }
-    .circel{
+
+    .circel {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .circel i{
+
+    .circel i {
         display: block;
         color: rgb(250, 250, 249);
-        
+
     }
-    .Video-tutorial .video-info .video-count{
+
+    .Video-tutorial .video-info .video-count {
         font-size: 1.1rem;
         margin-bottom: 5px;
     }
-    .Video-tutorial .video-info .video-notes{
+
+    .Video-tutorial .video-info .video-notes {
         font-size: .8rem;
     }
-    .workout-video{
+
+    .workout-video {
         top: 100px;
         right: 10px;
         width: 146px;
         height: 74px;
     }
-    .workout-video .video-total{
+
+    .workout-video .video-total {
         font-size: 1.8rem;
         margin-bottom: 3px;
     }
-    .workout-video .video-description{
+
+    .workout-video .video-description {
         font-size: .6rem;
         letter-spacing: 1px;
     }
+
+    /* change your habits  */
+    .change-your-habits {
+        margin-top: 20px;
+    }
+    .heading-text {
+        max-width: 340px;
+       text-align: center;
+        
+    }
+    
+    .heading-text .title {
+       font-size: 2rem;
+    }
+   
+    .habits-container{
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+        margin-top: 58px;
+    }
+    .exerise-card{
+        max-width: 270px;
+        margin: 0 auto;
+    }
+    /* .heading-text .sub-title {
+        
+        font-size: 0.87rem;
+        
+    } */
 }
 
 
@@ -254,11 +373,12 @@ body{
     }
 
     .banner {
-       flex-direction: column;
-       max-width: 600px;
+        flex-direction: column;
+        max-width: 600px;
     }
-    .banner-content{
-      margin-bottom: 100px;
+
+    .banner-content {
+        margin-bottom: 100px;
     }
 
 }
