@@ -42,6 +42,7 @@ body {
     outline: none;
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
+    margin-right: .5rem;
     cursor: pointer;
 }
 
@@ -62,6 +63,7 @@ body {
 .run-extra-mile,
 .bmi-calculator-content,
 .meet-team-container,
+.nourishing-meal-ideas,
 .footer-content
 {
     max-width: 1200px;
@@ -385,7 +387,67 @@ form .btn-primary {
 
 /* bmi calculator style end here */
 
+/* nourishing meal ideas style start here*/
+.nourishing-meal-ideas{
+    margin-top: 80px;
+}
+.nourishing-meal-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+.food-healthy-choice{
+    background: rgba(48, 48, 48, 0.54);
+    padding: .8rem;
+    border-radius: 1rem;
+}
+.food-healthy-choice img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.food-healthy-choice .title{
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+.food-healthy-choice .description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top: .9rem;
+}
+.food-healthy-choice .btn-primary{
+    margin-top: .9rem;
+    padding: .8rem 1.25rem;
+}
+/* .habits-container {
+    margin-top: 3.6rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
 
+.exerise-card {
+    text-align: center;
+}
+
+.exerise-card .exercise-image {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.exerise-card .habits-title {
+    color: rgb(255, 255, 255);
+    margin-bottom: 6px;
+    font-size: 18px;
+
+}
+
+.exerise-card .habits-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+} */
+/* nourishing meal ideas style end here*/
 
 
 
@@ -532,14 +594,12 @@ hr {
     }
 
     .btn-primary {
-        /* padding: 1rem 1.75rem; */
         padding: 1rem 1rem;
-        margin-right: .2rem;
+        margin-right: .4rem;
     }
 
     .btn-secondary {
-        /* padding: 1rem 1.75rem; */
-        padding: 1rem 1rem;
+    padding: 1rem 1rem;
     }
 
     .images-content .banner-image {
@@ -666,6 +726,13 @@ hr {
         font-size: 1rem;
     }
 
+    /* nourishing meal */
+    .nourishing-meal-container{
+        grid-template-columns: 1fr;
+        margin: 0 20px;
+        margin-top: 2.5rem;
+    }
+
     /* Meet team style */
     .meet-team {
         margin-top: 66px;
@@ -757,5 +824,23 @@ hr {
         font-size: 2.25rem;
     }
 
-
+    /* nourishing meal */
+    .nourishing-meal-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 20px;
+        margin-top: 2.5rem;
+    }
+    .footer-content {
+        flex-direction: column;
+       margin: 0 20px;
+   }
+   
+   .get-started {
+       padding-top: 20px;
+   }
+   
+   hr {
+       margin: 0 20px;
+       margin-top: 72px;
+   }
 }
