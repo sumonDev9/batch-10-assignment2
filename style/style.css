@@ -292,37 +292,6 @@ body {
 
 /* run-extra-mile style end here */
 
-/* Trainings and Exercises style start here */
-.training {
-    margin-top: 100px;
-}
-
-.training .heading-text {
-    text-align: left;
-    margin: 0 0;
-    margin-bottom: 58px;
-}
-
-.training img {
-    width: 100%;
-    height: 230px;
-
-}
-
-.training .training-row {
-    display: grid;
-    grid-template-columns: .8fr 1.5fr .7fr;
-
-}
-
-.training-row2 {
-    display: grid;
-    grid-template-columns: 1.1fr .6fr .8fr;
-    margin: 0 0;
-}
-
-/* Trainings and Exercises style end here */
-
 /* bmi calculator style start here */
 .bmi-calculator {
     margin-top: 100px;
@@ -425,25 +394,44 @@ form .btn-primary {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     margin-top: 78px;
+    
 }
+
 
 .team1,
 .team2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+   
 }
 
 .team2 {
     margin-top: 20px;
 }
-
+.trainer{
+    position: relative;
+}
+.trainer .title{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 56px;
+    left: 25px;
+    font-size: 1.25rem;
+}  
+.trainer .subTitle{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    bottom: 36px;
+    left: 25px;
+    font-size: .87rem;
+}  
 .meet-team-container img {
     width: 100%;
     height: 272px;
     border-radius: 18px;
     /* margin-top: 20px; */
-    filter: brightness(80%);
+    filter: brightness(82%);
 }
 
 /* meet team style end here */
@@ -545,12 +533,14 @@ hr {
     }
 
     .btn-primary {
-        padding: 1rem 1.75rem;
+        /* padding: 1rem 1.75rem; */
+        padding: 1rem 1rem;
         margin-right: .2rem;
     }
 
     .btn-secondary {
-        padding: 1rem 1.75rem;
+        /* padding: 1rem 1.75rem; */
+        padding: 1rem 1rem;
     }
 
     .images-content .banner-image {
