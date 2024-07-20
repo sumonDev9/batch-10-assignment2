@@ -61,9 +61,10 @@ body {
 .change-your-habits,
 .run-extra-mile,
 .bmi-calculator-content,
-.meet-team-container
+.meet-team-container,
+.footer-content
 {
-    max-width: 1126px;
+    max-width: 1200px;
     margin: 0rem auto;
 }
 
@@ -384,6 +385,10 @@ form .btn-primary {
 
 /* bmi calculator style end here */
 
+
+
+
+
 /* meet team style start here */
 .meet-team {
     margin-top: 90px;
@@ -394,7 +399,6 @@ form .btn-primary {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     margin-top: 78px;
-    
 }
 
 
@@ -445,13 +449,8 @@ form .btn-primary {
 
 .footer-content{
    display:flex;
-    justify-content: space-between;
-    /* margin-top: 68px;  */
-    max-width: 1126px;
-    margin: 0rem auto;
-   
-    /* height: 100px; */
-    padding-top: 66px;
+   justify-content: space-between;
+   padding-top: 66px;
 }
 
 .footer-title {
